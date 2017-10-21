@@ -1,0 +1,107 @@
+.wrapper {
+    margin: 200px auto;
+    border: 1px black solid;
+    max-width: 200px;
+}
+
+.screenContainer {
+    border: 1px black solid;
+    height: 80px;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: right;
+    padding: 4px 4px 7px 4px;
+}
+.res{
+  border: 2px black solid;
+  height: inherit;
+}
+.row {
+    display: flex;
+}
+
+.numbutton {
+    width: 50px;
+    height: 50px;
+    color: white;
+    background: gray;
+    border: 1px black solid;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    margin: -1px -1px -1px -1px;
+    text-shadow: 0px 0px 2px #000000;
+}
+
+.calcbutton {
+    width: 50px;
+    height: 50px;
+    background: orange;
+    color: white;
+    border: 1px black solid;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    text-shadow: 0px 0px 2px #000000;
+    margin: -1px -1px -1px -1px;
+}
+
+.resbutton {
+    width: 50px;
+    height: 50px;
+    background: green;
+    color: white;
+    border: 1px black solid;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: -1px -1px -1px -1px;
+    text-shadow: 0px 0px 2px #000000;
+}
+.resetButton{
+  width: 50px;
+  height: 50px;
+  background: #c80000;
+  color: white;
+  border: 1px black solid;
+  text-align: center;
+  line-height: 50px;
+  font-size: 28px;
+  margin: -1px -1px -1px -1px;
+  text-shadow: 0px 0px 2px #000000;
+}
+.numbutton:hover {
+    background: #c1c1c1;
+    color: #868686;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    /*box-shadow: 0 0 2px #ffffff;*/
+}
+
+.calcbutton:hover {
+    background: #ffd95e;
+    color: #db8a00;
+    font-size: 35px;
+    font-weight: 500;
+    cursor: pointer;
+    /*box-shadow: 0 0 2px #ffffff;*/
+}
+
+.resbutton:hover {
+    background: #0db904;
+    color: #a7f5a3;
+    font-size: 35px;
+    //font-weight: 900;
+    cursor: pointer;
+    /*box-shadow: 0 0 2px #ffffff;*/
+}
+.resetButton:hover{
+  background: #ff2e00;
+  color: yellow;
+  font-size: 31px;
+  font-weight: 500;
+  cursor: pointer;
+  /*box-shadow: 0 0 2px #ffffff;*/
+}
